@@ -59,19 +59,21 @@ JWT (JSON Web Token) is used for authentication.
 To access protected routes, include the JWT in the Authorization header.
 
 # folder Structure 
-  HOSPITAL
-    config 
-       database.js
-       passport.js
-    controllers
-       userController.js
-    models
-       doctor.js
-       patient.js
-    routes
-      router.js
-    index.js
-    .gitignore
-    package-lock.json
-    package.json
-    README.md
+ - __C:\\Users\\hp\\Desktop\\hospital__
+   - [README.md](README.md)
+   - __config__
+     - [database.js](config/database.js)
+     - [passport.js](config/passport.js)
+   - __controllers__
+     - [userController.js](controllers/userController.js)
+   - [index.js](index.js)
+   - [list.md](list.md)
+   - __models__
+     - [Patient.js](models/Patient.js)
+     - [doctor.js](models/doctor.js)
+   - [node\_modules](node_modules)
+   - [package\-lock.json](package-lock.json)
+   - [package.json](package.json)
+   - __routes__
+     - [router.js](routes/router.js)
+
