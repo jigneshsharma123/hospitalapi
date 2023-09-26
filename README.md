@@ -1,4 +1,4 @@
-#hospital api 
+# hospital api 
 Creating an hosptial api and try to run on the postmen for learning purpose. 
 
 ## Tech Stack
@@ -34,13 +34,13 @@ Install my-project with npm
   5)end
 ```
    ## API Endpoints
-##Doctors
+## Doctors
 
 POST /doctors/register: Register a new doctor.
 
 POST /doctors/login: Authenticate and receive a JWT.
 
-##Patients
+## Patients
 
 POST /patients/register: Register a new patient.
 
@@ -48,7 +48,7 @@ POST /patients/:id/create_report: Create a medical report for a patient.
 
 GET /patients/:id/all_reports: List all reports for a patient, oldest to latest.
 
-##Reports
+## Reports
 
 GET /reports/:status: List reports filtered by status.
 
@@ -58,7 +58,7 @@ JWT (JSON Web Token) is used for authentication.
 
 To access protected routes, include the JWT in the Authorization header.
 
-#folder Structure 
+# folder Structure 
   HOSPITAL
     config 
        database.js
